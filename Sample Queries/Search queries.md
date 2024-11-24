@@ -7,15 +7,16 @@ This document contains some sample Splunk search queries along with explanations
 ## 1. Basic Search Queries
 
 ### a) Search All Logs 
-```spl 
+```spl
 *
+```
 ### b) Search specific hosts and logs
-
+```spl
 source="webserver.log" host="HacksProb" sourcetype="main"
-
+```
 ### c) Search All Logs with "error"
 ```spl
 index=* sourcetype=*
 | search "error"
 | table _time, host, sourcetype, message
-
+```
