@@ -68,5 +68,3 @@
    | search "John the Ripper"
    | table _time, src_ip, dest_ip, hash, password_attempt
    ```
-
-Let me know if you need more queries or modifications!
