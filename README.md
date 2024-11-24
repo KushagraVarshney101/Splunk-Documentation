@@ -8,19 +8,33 @@ This documentation aims to provide step-by-step guidance on leveraging Splunk’
 
 ---
 
+## Resources
+
+This repository contains all the necessary information on how to install and manage Splunk Enterprise:
+
+- **[Documentation](https://github.com/KushagraVarshney101/Splunk-Documentation/tree/main/Documentation)**  
+  This directory contains essential guides for SIEM, an introduction to Splunk, and instructions on how to use Splunk effectively.
+
+- **[Sample Logs](#)**  
+  This directory contains sample logs that you can upload to Splunk for testing and learning purposes.
+
+To install Splunk, refer to the steps mentioned below.
+
+---
+
 ## Installation
 
 1. **Create an Account**  
-   To install Splunk, first, create an account on [Splunk Web](https://www.splunk.com/en_us).
+   Visit [Splunk Web](https://www.splunk.com/en_us) and create an account.
 
 2. **Download Splunk Enterprise**  
    Download the Splunk Enterprise edition and install it on your system.
 
 3. **Access Splunk**  
-   After installation, Splunk will be available on [Port 8000](http://localhost:8000).
+   After installation, Splunk will be accessible at [Port 8000](http://localhost:8000).
 
 4. **Login**  
-   Use the setup credentials to log in.
+   Use the credentials set during installation to log in.
 
 ---
 
