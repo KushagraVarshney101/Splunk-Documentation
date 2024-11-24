@@ -15,7 +15,7 @@ To simulate web server logs, we'll create a simple log file that mimics entries 
 ### Sample Web Server Log Format:
 
 
-Save the log data to a file called `sample_web_server.log`.
+Save the log data to a file called `sample_web_server.log` or download it from here [Web Logs](https://github.com/KushagraVarshney101/Splunk-Documentation/blob/main/Sample%20Logs/webserver.log).
 
 ## Step 2: Upload the Log File to Splunk
 
@@ -35,8 +35,8 @@ Once the log data is indexed, you can perform a search to query the logs.
 ### Example Search Query:
 
 1. Go to the **Search & Reporting** app in Splunk.
-2. In the search bar, enter the following query to filter the logs and display the relevant fields:
-
+2. In the search bar, enter the sample query(b)[sample queries](https://github.com/KushagraVarshney101/Splunk-Documentation/blob/main/Sample%20Queries/Search%20queries.md) to filter the logs and display the relevant fields and change the hostname to your one:
+     
 This query will display the following columns:
 - `_time`: The timestamp of the request.
 - `clientip`: The IP address of the client.
@@ -58,7 +58,7 @@ This query will display the following columns:
 
 Now, the web server log search results will be part of your dashboard, making it easier to access and visualize the logs.
 
-## Step 5: Record a Screen Capture
+## Step 5: Screen Capture
 
 For reference, I have recorded a screen capture that walks through the steps outlined in this document. The video will show:
 
