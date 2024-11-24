@@ -1,0 +1,4 @@
+2024-11-24 12:00:00 INFO 192.168.1.10 accessed index.html via port 80
+2024-11-24 12:01:00 ERROR 192.168.1.11 failed to access admin.html via port 8080
+2024-11-24 12:02:00 INFO 192.168.1.12 accessed contact.html via port 443
+2024-11-24 12:03:00 WARNING 192.168.1.13 unusual activity detected on port 22
