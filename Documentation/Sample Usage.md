@@ -35,7 +35,7 @@ Once the log data is indexed, you can perform a search to query the logs.
 ### Example Search Query:
 
 1. Go to the **Search & Reporting** app in Splunk.
-2. In the search bar, enter the sample query(b)[sample queries](https://github.com/KushagraVarshney101/Splunk-Documentation/blob/main/Sample%20Queries/Search%20queries.md) to filter the logs and display the relevant fields and change the hostname to your one:
+2. In the search bar, enter the sample query(b) [sample queries](https://github.com/KushagraVarshney101/Splunk-Documentation/blob/main/Sample%20Queries/Search%20queries.md) to filter the logs and display the relevant fields and change the hostname to your one:
      
 This query will display the following columns:
 - `_time`: The timestamp of the request.
