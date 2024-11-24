@@ -72,4 +72,4 @@ You can view the recorded video [here](insert-link-to-video).
 
 You have now successfully uploaded a sample web server log to Splunk, searched for the data using a Splunk query, and added the results to a dashboard for better visualization. Refer to the video tutorial for additional guidance.
 
-If you have any questions or run into issues, feel free to reach out to the support team or consult the official Splunk documentation.
+If you have any questions or run into issues, feel free to reach out to the support team or consult the official [Splunk documentation](https://docs.splunk.com/Documentation).
