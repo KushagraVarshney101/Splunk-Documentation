@@ -15,8 +15,11 @@ This repository contains all the necessary information on how to install and man
 - **[Documentation](https://github.com/KushagraVarshney101/Splunk-Documentation/tree/main/Documentation)**  
   This directory contains essential guides for SIEM, an introduction to Splunk, and instructions on how to use Splunk effectively.
 
-- **[Sample Logs](#)**  
+- **[Sample Logs](https://github.com/KushagraVarshney101/Splunk-Documentation/tree/main/Sample%20Logs)**  
   This directory contains sample logs that you can upload to Splunk for testing and learning purposes.
+  
+- **[Sample Queries](https://github.com/KushagraVarshney101/Splunk-Documentation/tree/main/Sample%20Queries)**  
+  This directory contains sample queries that you can serach in Splunk for testing and learning purposes.
 
 To install Splunk, refer to the steps mentioned below.
 
