@@ -60,13 +60,13 @@ Now, the web server log search results will be part of your dashboard, making it
 
 ## Step 5: Screen Capture
 
-For reference, I have recorded a screen capture that walks through the steps outlined in this document. The video will show:
+Here is a video that demonstrates the entire process:
+
+[![Watch the video](https://img.youtube.com/vi/g1PJ5XhBvo0/0.jpg)](https://www.youtube.com/watch?v=g1PJ5XhBvo0)
 
 - How to create and upload the sample web server log.
 - How to perform the search query in Splunk.
 - How to add the search results to a dashboard.
-
-You can view the recorded video [here](insert-link-to-video).
 
 ## Conclusion
 
