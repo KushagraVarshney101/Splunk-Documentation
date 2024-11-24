@@ -1,3 +1,42 @@
+# Sample Usage: Searching Web Server Logs in Splunk and Adding to Dashboard
+
+## Introduction
+
+In this guide, we will walk through the steps of creating a sample web server log, searching for it in Splunk, and adding the search results to a dashboard for easy access. We will also provide a reference video to show how to complete each step.
+
+### Prerequisites:
+- Splunk is installed and running on your system.
+- A Splunk instance is set up to index data.
+
+## Step 1: Create a Sample Web Server Log
+
+To simulate web server logs, we'll create a simple log file that mimics entries from a web server, including details like IP address, timestamp, request method, URL, status code, and response time.
+
+### Sample Web Server Log Format:
+
+
+Save the log data to a file called `sample_web_server.log`.
+
+## Step 2: Upload the Log File to Splunk
+
+1. Log in to your Splunk instance.
+2. Go to **Settings > Add Data**.
+3. Select **Upload** under the "Local File" option.
+4. Browse to the location of the `sample_web_server.log` file and upload it.
+5. Choose the appropriate source type (you can use `access_combined` for web server logs or create a custom source type).
+6. Click **Next** and then **Review** and **Submit** to complete the upload process.
+
+Splunk will now index your log file and make it available for searching.
+
+## Step 3: Search for the Log Data in Splunk
+
+Once the log data is indexed, you can perform a search to query the logs.
+
+### Example Search Query:
+
+1. Go to the **Search & Reporting** app in Splunk.
+2. In the search bar, enter the following query to filter the logs and display the relevant fields:
+
 This query will display the following columns:
 - `_time`: The timestamp of the request.
 - `clientip`: The IP address of the client.
